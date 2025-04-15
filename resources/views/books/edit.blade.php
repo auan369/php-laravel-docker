@@ -57,11 +57,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     Update Book
                                 </button>
-                                <form action="{{ route('home')}}" method="GET" class="d-inline">    
-                                    <button type="submit" class="btn btn-secondary">
-                                        Cancel
-                                    </button>
-                                </form>
+                                <a href="{{ route('home') }}" class="btn btn-secondary">Cancel</a>
                             </div>
                         </div>
                     </form>
