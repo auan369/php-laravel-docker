@@ -57,7 +57,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     Update Book
                                 </button>
-                                <a href="{{ route('home') }}" class="btn btn-secondary">Cancel</a>
+                                <a href="{{ route('home') }}" class="btn btn-secondary" role="button">Cancel</a>
                             </div>
                         </div>
                     </form>
