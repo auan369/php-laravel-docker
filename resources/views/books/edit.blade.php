@@ -57,7 +57,10 @@
                                 <button type="submit" class="btn btn-primary">
                                     Update Book
                                 </button>
-                                <a href="{{ route('home') }}" class="btn btn-secondary" role="button">Cancel</a>
+                                <button type="submit" class="btn btn-secondary">
+                                    <a href="{{ route('home') }}" style="color:inherit">Cancel</a>
+                                </button>
+                                
                             </div>
                         </div>
                     </form>
