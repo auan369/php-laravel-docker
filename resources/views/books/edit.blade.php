@@ -58,7 +58,7 @@
                                     Update Book
                                 </button>
                                 <button type="submit" class="btn btn-secondary">
-                                    <a href="{{ route('home') }}" style="color:inherit">Cancel</a>
+                                    <a href="{{ route('home') }}" style="color:inherit; text-decoration: none;">Cancel</a>
                                 </button>
                                 
                             </div>
